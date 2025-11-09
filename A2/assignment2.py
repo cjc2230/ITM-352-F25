@@ -5,8 +5,8 @@ import ssl
 import time
 import os
 
-# Temporary fix.  Don't do this in production code. 
-# I could not get pyarrow to work without this fix.
+# temporary fix.  don't do this in production code. 
+# i could not get pyarrow to work without this fix.
 ssl._create_default_https_context = ssl._create_unverified_context
 pd.set_option('display.max_columns', None)
 pd.set_option('display.float_format', '{:.2f}'.format)
@@ -54,7 +54,7 @@ def load_csv(file_path):
 
 def display_rows(dataframe):
     while True:
-        filtered_data = filter_by_date_range(dataframe) # filter data by date range first
+        filtered_data = filter_by_date_range(dataframe) # requirement 7: filter data by date range first
         print("\nEnter the number of rows to display")
         print(f" - Enter a number 1 to {len(filtered_data)}")
         print(" - To see all rows, enter 'all'")
@@ -89,7 +89,7 @@ def exit_program(sales_data):
 
 
 def show_employees_by_region(sales_data):
-    filtered_data = filter_by_date_range(sales_data) # filter data by date range first
+    filtered_data = filter_by_date_range(sales_data) # requirement 7: filter data by date range first
     pivot_table = pd.pivot_table(
         filtered_data, 
         index='sales_region',
@@ -108,34 +108,28 @@ def show_employees_by_region(sales_data):
 
 # requirement 7: function to filter by date range
 def filter_by_date_range(pivot_table):
-    # Make sure order_date is datetime
+    # makes sure order_date is datetime
     pivot_table['order_date'] = pd.to_datetime(pivot_table['order_date'], errors='coerce')
 
     print("\nPlease select a date range to filter the data. Use proper date format (MM/DD/YYYY)")
 
     while True:
         try:
-            start_date = input("Start date: ").strip() #ask user for start date
-            end_date = input("End date: ").strip() #ask user for end date
-
+            start_date = input("Start date: ").strip()
+            end_date = input("End date: ").strip()
             # Convert to datetime with exact date format
             start = pd.to_datetime(start_date, format='%m/%d/%Y')
             end = pd.to_datetime(end_date, format='%m/%d/%Y')
-
             if start > end:
                 print("Start date cannot be after end date. Try again.")
                 continue
-
             filtered_df = pivot_table[(pivot_table['order_date'] >= start) & # filter data frame
                                       (pivot_table['order_date'] <= end)]
-
             if filtered_df.empty: # check if filtered data frame is empty
                 print("⚠️ No data found in that date range. Try again.")
                 continue
-
             print(f"Data filtered to {len(filtered_df)} rows between {start_date} and {end_date}.") # inform user of result
             return filtered_df
-
         except ValueError: # catch invalid date format
             print("Invalid date format. Please use MM/DD/YYYY.")
 
@@ -145,18 +139,18 @@ def ask_to_export(pivot_table):
         export_choice = input("\nWould you like to export these results to an Excel file? (y/n): ").strip().lower()
         if export_choice == 'y':
             filename = input("Enter a filename (without extension): ").strip() #asks user to input filename
-            if not filename: # check for empty filename
+            if not filename: 
                 print("Invalid filename. Export cancelled.")
                 return
             try:
                 filename = f"{filename}.xlsx" # add .xlsx extension
-                pivot_table.to_excel(filename, index=True) # export to excel
-                print(f"Results successfully exported to '{filename}':)") # tell user export was successful
+                pivot_table.to_excel(filename, index=True)
+                print(f"Results successfully exported to '{filename}':)") 
             except Exception as e: # catch any errors during export
                 print(f"Error exporting to Excel: {e} :(")
             break
         elif export_choice == 'n': # user chose not to export
-            print("Okay, not exporting.") # tell user not exporting
+            print("Okay, not exporting.")
             break
         else:
             print("Please enter 'y' or 'n'.") # invalid input, ask again
