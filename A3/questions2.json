@@ -1,0 +1,102 @@
+{
+     "What is the airspeed of an unladen swallow in miles/hr": {
+          "options": [
+               "12",
+               "8",
+               "11",
+               "15"
+          ],
+          "answer": "11",
+          "explanation": "An unladen European swallow flies at about 11 miles per hour, or 5 meters per second."
+     },
+     "What is the capital of Texas": {
+          "options": [
+               "Austin",
+               "San Antonio",
+               "Dallas",
+               "Waco"
+          ],
+          "answer": "Austin",
+          "explanation": "Austin is the capital of Texas."
+     },
+     "The Last Supper was painted by which artist": {
+          "options": [
+               "Da Vinci",
+               "Rembrandt",
+               "Picasso",
+               "Michelangelo"
+          ],
+          "answer": "Da Vinci",
+          "explanation": "The Last Supper was painted by Leonardo Da Vinci."
+     },
+     "Which classic novel opens with the line 'Call Me Ishmael'?": {
+          "options": [
+               "Moby Dick",
+               "Wuthering Heights",
+               "The Old Man and the Sea",
+               "The Scarlet Letter"
+          ],
+          "answer": "Moby Dick",
+          "explanation": "Moby Dick opens with the line 'Call Me Ishmael'."
+     },
+     "Frank Lloyd Wright designed a house that included a waterfall. What is the name of this house?": {
+          "options": [
+               "Fallingwater",
+               "Watering Heights",
+               "Mossyledge",
+               "Taliesin"
+          ],
+          "answer": "Fallingwater",
+          "explanation": "Fallingwater is a house designed by Frank Lloyd Wright that includes a waterfall."
+     },
+     "Who invented the light bulb?": {
+          "options": [
+               "Thomas Edison",
+               "Nikola Tesla",
+               "Alexander Graham Bell",
+               "Benjamin Franklin"
+          ],
+          "answer": "Thomas Edison",
+          "explanation": "Thomas Edison is credited with inventing the first practical light bulb."
+     },
+     "Who wrote Harry Potter?": {
+          "options": [
+               "J.K. Rowling",
+               "J.R.R. Tolkien",
+               "Stephen King",
+               "Agatha Christie"
+          ],
+          "answer": "J.K. Rowling",
+          "explanation": "J.K. Rowling is the author of the Harry Potter series."
+     },
+     "What is the smallest prime number?": {
+          "options": [
+               "2",
+               "1",
+               "3",
+               "0"
+          ],
+          "answer": "2",
+          "explanation": "2 is the smallest and only even prime number."
+     },
+     "How many continents are there on Earth?": {
+          "options": [
+               "7",
+               "5",
+               "6",
+               "8"
+          ],
+          "answer": "7",
+          "explanation": "There are 7 continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia (Oceania), and South America."
+     },
+     "What are the three primary colors?": {
+          "options": [
+               "Red, Blue, Yellow",
+               "Red, Green, Blue",
+               "Yellow, Green, Blue",
+               "Red, Yellow, Green"
+          ],
+          "answer": "Red, Blue, Yellow",
+          "explanation": "The three primary colors are Red, Blue, and Yellow."
+     }
+}
