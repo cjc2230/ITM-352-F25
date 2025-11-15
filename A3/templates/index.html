@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to the Quiz</title>
+</head>
+<body>
+    {% if username %}
+    <h1>Welcome back, {{ username }}! 🥳</h1>
+    
+    {% if history %}
+    <h3>Your Score History:</h3>
+    <ul>
+        {% for entry in history %}
+        <li>Score: {{ entry.score }} / {{ entry.total }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>You haven't completed a quiz yet!</p>
+    {% endif %}
+
+    <a href="{{ url_for('quiz') }}">Start New Quiz</a>
+    
+    {% else %}
+    <h1>Welcome to the Quiz!</h1>
+    <p>Please enter your name to begin:</p>
+    
+    <form method="POST" action="{{ url_for('set_name') }}">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Start Quiz</button>
+    </form>
+    
+    {% endif %}
+</body>
+</html>

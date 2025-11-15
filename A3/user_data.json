@@ -1,0 +1,27 @@
+{
+  "chloe": {
+    "username": "chloe",
+    "history": [
+      {
+        "score": 9,
+        "total": 10
+      },
+      {
+        "score": 10,
+        "total": 10
+      },
+      {
+        "score": 8,
+        "total": 10
+      },
+      {
+        "score": 5,
+        "total": 10
+      },
+      {
+        "score": 10,
+        "total": 10
+      }
+    ]
+  }
+}

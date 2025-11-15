@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question Result</title>
+</head>
+<body>
+    <h1>Your Question Result</h1>
+    <h2>{{ question }}</h2>
+    
+    <h3>
+        Your Answer: 
+        <span style="
+            {% if 'Incorrect' in question_result %}
+                color: red; 
+                font-weight: bold;
+            {% endif %}
+        ">
+            {{ answer }}
+        </span>
+    </h3>
+    
+    <div style="
+        font-size: 1.5em; 
+        color: {% if 'Correct' in question_result %}green{% else %}red{% endif %};
+    ">
+        {{ question_result }}
+    </div>
+    
+    <h3>
+        Correct Answer: 
+        <span style="color: green;">{{ correct_answer }}</span>
+    </h3>
+    
+    <p><strong>Explanation:</strong> {{ explanation }}</p>
+    
+    <br>
+    <a href="{{ url_for('quiz') }}">Next Question</a>
+</body>
+</html>
