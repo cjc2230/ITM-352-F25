@@ -1,64 +1,62 @@
-Username,First Name,Last Name,Likes 1 pt,Comments 1pt (4 max),Story Repost 5 pt,Story Tag 5 pt,Post Tag 5 pt,Linkedin 5 pt,Total
-aiidencc,Aiden,Cheung,14,1,,,,,
-aileee.m,Ailee,Watanabe,10,,,,,,
-alyssa.caballero,Alyssa Grace,Caballero,12,,,,,,
-bradyj_01,Brady,Johnson,11,,,,,,
-calistafujitani,Calista,Fujitani,13,,,,,,
-_carleem,Carlee,Marcello,13,5,20,115,,,
-cj.cornforth,Chloe,Cornforth,13,2,15,35,,,
-christian.erice,Christian,Erice,10,,,,,,
-christinaadoan,Christina,Doan,15,3,,20,,,
-div.159,David,Wetter,10,,,,,,
-dacksvic,Daxton,Vickers,11,,,,,,
-daytonn.b,Dayton,Barsatan,13,1,,,,,
-destinyyasuhara,Destiny,Yasuhara,13,,10,10,,,
-di21on.t,Dillon,Tom,13,,,,,,
-e1leen.l,Eileen,Liu,13,,,,,,
-emersondives,Emerson,Heaton,,,,,,,
-ethanshekk,Ethan,Shek,11,,,,,,
-hyunnycha,Hyunny,Cha,11,,,,,,
-zar_jt,"Jacob ""JT""",Baltazar,,,,,,,
-jamie.hirano,Jamie,Hirano,13,,5,5,,,
-jennaamarii,Jenna,Weigelt,12,3,,,,,
-kaigardiner_,Kai,Gardiner,11,,,,,,
-k4nunu,Kanunu, Potts,13,2,,,,,
-katelynpabila,Katelyn,Pabila,,,,,,,
-,Katie,Huynh,,,,,,,
-kellie.rother,Kellie,Rother,11,,,,,,
-kou.nishiyama,Kou,Nishiyama,12,,,,,,
-kxchun,Kristen,Chun,14,2,10,,,,
-lara_ho1,Lara,Miyakawa Ho,11,1,5,,,,
-lorissa.mach,Lori,Mach,12,,,,,,
-mxwll.lee,Maxwell,Lee,12,,,,,,
-_michelletlu,Michelle,Lu,13,,10,,,,
-nahtaleh,Natalie Hope,Pagdilao,13,2,10,,,,
-natereitzell,Nathan,Reitzell,13,,,,,,
-noah.dasani,Noah,Sasaki,11,1,,,,,
-oceankishimoto,Ocean,Kishimoto,13,2,,,,,
-reeceorsmthn,Reece,Ichinose,11,,,,,,
-riochoppa,Rio,Chopot,12,,,5,5,,
-rvxane_,Roxane,Ruan,12,1,,,,,
-russqln,Russell,Quelnan,13,2,,,,,
-s.am.lee3,Samuel,Lee,12,1,,,,,
-sayaafukada,Saya,Fukuda,13,,,,,,
-theunseensean,Sean,Kobayashi,13,2,,,,,
-shogo_ikemocchan,Shogo,Ikemoto,,,,,,,
-sofiavvaldivia,Sofia,Valdivia,14,4,15,,,,
-___stevn,Steven,Li,,,,,,,
-sukwenn,Suk Wen,Ruan,,,,,,,
-tin.levv,Tin,Nguyen,11,,,,,,
-willlisu,Will,Lisbon,12,,,,,,
-,,,,,,,,,
-alicia_tanoue,Alicia,Tanoue,2,,20,,,,
-alisonfunai,Alison,Funai,4,,,,,,
-buhreee07,Bree,Matayoshi,3,,,,,,
-cole._schmidt,Cole,Schmidt,,,,,,,
-_connormcintosh,Connor,McIntosh,2,1,,,,,
-faithmmay,Faith,May,4,,5,,,,
-jluv.tan,Jordan,Tan,,,,,,,
-kristyychung,Kristy,Chung,1,,,,,,
-lhean__mae,Lhean Mae,Espenilla,3,1,,,,,
-raizen_rj,Ryzen,Vicencio,,,15,,,,
-tony.dewa_,Tony,Dewa,4,,,,,,
-ttori.ia,Victoria,Brown,4,,,,,,
-zionahyou_,Zion,Ah You,3,,,,,,
+First Name,Last Name,Username,likes,comments,tags,total_points
+Aiden,Cheung,aiidencc,21,5,0,26
+Ailee,Watanabe,aileee.m,9,0,0,9
+Alyssa Grace,Caballero,alyssa.caballero,22,0,0,22
+Brady,Johnson,bradyj_01,9,0,0,9
+Calista,Fujitani,calistafujitani,23,1,0,24
+Carlee,Marcello,_carleem,33,19,16,132
+Chloe,Cornforth,cj.cornforth,20,17,10,87
+Christian,Erice,christian.erice,6,0,0,6
+Christina,Doan,christinaadoan,24,16,3,55
+David,Wetter,div.159,5,0,0,5
+Daxton,Vickers,dacksvic,15,1,0,16
+Dayton,Barsatan,daytonn.b,29,8,0,37
+Destiny,Yasuhara,destinyyasuhara,7,0,6,37
+Dillon,Tom,di21on.t,0,0,0,0
+Eileen,Liu,e1leen.l,0,0,0,0
+Emerson,Heaton,emersondives,0,0,0,0
+Ethan,Shek,ethanshekk,7,0,0,7
+Hyunny,Cha,hyunnycha,17,3,0,20
+"Jacob ""JT""",Baltazar,zar_jt,2,0,0,2
+Jamie,Hirano,jamie.hirano,25,4,1,34
+Jenna,Weigelt,jennaamarii,5,2,0,7
+Kai,Gardiner,kaigardiner_,3,0,0,3
+Kanunu, Potts,k4nunu,22,6,0,28
+Katelyn,Pabila,katelynpabila,0,0,0,0
+Kellie,Rother,kellie.rother,16,3,0,19
+Kou,Nishiyama,kou.nishiyama,11,0,0,11
+Kristen,Chun,kxchun,20,15,1,40
+Lara,Miyakawa Ho,lara_ho1,19,5,0,24
+Lori,Mach,lorissa.mach,12,0,0,12
+Maxwell,Lee,mxwll.lee,9,0,0,9
+Michelle,Lu,_michelletlu,23,2,0,25
+Natalie Hope,Pagdilao,nahtaleh,25,6,1,36
+Nathan,Reitzell,natereitzell,17,1,0,18
+Noah,Sasaki,noah.dasani,1,9,3,25
+Ocean,Kishimoto,oceankishimoto,19,6,0,25
+Reece,Ichinose,reeceorsmthn,16,0,0,16
+Rio,Chopot,riochoppa,22,3,4,45
+Roxane,Ruan,rvxane_,20,8,0,28
+Russell,Quelnan,russqln,24,10,0,34
+Samuel,Lee,s.am.lee3,25,3,0,28
+Saya,Fukuda,sayaafukada,25,0,0,25
+Sean,Kobayashi,theunseensean,26,17,1,48
+Shogo,Ikemoto,shogo_ikemocchan,1,0,0,1
+Sofia,Valdivia,sofiavvaldivia,28,18,0,46
+Steven,Li,___stevn,0,0,0,0
+Suk Wen,Ruan,sukwenn,9,2,0,11
+Tin,Nguyen,tin.levv,5,1,0,6
+Will,Lisbon,willlisu,8,0,0,8
+Alicia,Tanoue,alicia_tanoue,12,2,6,44
+Alison,Funai,alisonfunai,19,1,2,30
+Bree,Matayoshi,buhreee07,12,0,0,12
+Cole,Schmidt,cole._schmidt,0,1,1,6
+Connor,McIntosh,_connormcintosh,12,2,0,14
+Faith,May,faithmmay,13,0,1,18
+Jordan,Tan,jluv.tan,0,1,0,1
+Kristy,Chung,kristyychung,4,1,0,5
+Lhean Mae,Espenilla,lhean__mae,22,6,2,38
+Ryzen,Vicencio,raizen_rj,10,1,3,26
+Tony,Dewa,tony.dewa_,13,2,0,15
+Victoria,Brown,ttori.ia,12,0,0,12
+Zion,Ah You,zionahyou_,2,0,0,2
