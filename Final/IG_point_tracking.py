@@ -13,10 +13,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
 import csv
 import re
-theme: jekyll-theme-minimal
-
-title: Chloe's homepage
-description: Bookmark this to keep an eye on my project updates!
 
 try:
     from dateutil import parser as date_parser
